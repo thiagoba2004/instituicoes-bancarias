@@ -1,7 +1,7 @@
 # ROADMAP — Instituições Bancárias
 
 **Projeto:** `PRJ-000022` · **Repositório:** `thiagoba2004/instituicoes-bancarias`  
-**Estado:** `TECHNICAL_BOOTSTRAP_IN_PROGRESS`  
+**Estado:** `TECHNICAL_BOOTSTRAP_VERIFIED_SUBSTANTIVE_SCOPE_PENDING`  
 **Gerador:** Rota A, `EA-000002-000025`.
 
 ## Estratégia vigente
@@ -22,3 +22,9 @@ Apenas um **Projeto governável**, sem confundir isso com produto concluído, ba
 ## Próximo passo substantivo
 
 **`SUBSTANTIVE_SCOPE_AWAITING_HUMAN_DECISION`:** confirmar missão/finalidade, público-alvo, tipos de entregas e se deverá existir site próprio. Após essa definição, selecionar módulos e planejar trabalho local. Nenhuma atividade substantiva foi iniciada ou homologada.
+
+## Verificação e encerramento técnico — 10/10/2026
+
+A estratégia `EA-000022-000001` concluiu as quatro fases **exclusivamente de bootstrap técnico**, após readback no GitHub: identidade, oito fontes/arquivos mínimos, perfil Gerador, JSON/JSONL, classificação e visibilidade pública conferidos.
+
+**Estado atual:** `TECHNICAL_BOOTSTRAP_VERIFIED_SUBSTANTIVE_SCOPE_PENDING`. O Projeto **não** tem missão detalhada aprovada, produto substantivo, pesquisa concluída, site Pages ou serviço implantado. O próximo gate é a decisão humana sobre finalidade, público-alvo, primeiros produtos e eventual site.
