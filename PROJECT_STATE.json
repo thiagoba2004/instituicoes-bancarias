@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000022",
+  "project_sequence": 22,
+  "project_name": "Instituições Bancárias",
+  "project_alias": null,
+  "project_id_legacy": "instituicoes-bancarias",
+  "repository": "thiagoba2004/instituicoes-bancarias",
+  "updated_at": "2026-10-10",
+  "status": "TECHNICAL_BOOTSTRAP_IN_PROGRESS",
+  "generator_project_code": "PRJ-000002",
+  "generator_strategy_code": "EA-000002-000025",
+  "generator_route": "A",
+  "generated_from_kernel": "1.11",
+  "current_strategy_code": "EA-000022-000001",
+  "current_strategy_name": "Inicialização técnica canônica pela Rota A",
+  "current_phase_code": "F-000022-000001-002",
+  "strategy_status": "EM_EXECUCAO",
+  "project_purpose_status": "PENDING_HUMAN_DEFINITION",
+  "target_audience_status": "PENDING_HUMAN_DEFINITION",
+  "products_and_services_status": "NOT_DEFINED",
+  "site_status": "NOT_REQUESTED_NOT_VERIFIED",
+  "repository_visibility": "PUBLIC",
+  "artifact_policy": {
+    "markdown": "PRIMARY_TEXT",
+    "json": "STRUCTURED_DATA_WITH_REAL_CONSUMER_ONLY"
+  },
+  "module_profile_ref": "thiagoba2004/gerador-de-agents/profiles/instituicoes-bancarias.json",
+  "canonical_files": [
+    "README.md",
+    "AGENTS.md",
+    "REQUEST_LOG.jsonl",
+    "STRATEGY_LOG.jsonl",
+    "PROJECT_STATE.json",
+    "ROADMAP.md",
+    "INFORMATION_HANDLING_PROFILE.json",
+    "estrategias/EA-000022-000001-bootstrap-rota-a.md"
+  ],
+  "last_completed_milestone": "Project identity allocated and first remote commit created.",
+  "pending_items": [
+    "Define substantive purpose, target audience, deliverables and whether website is desired."
+  ],
+  "next_logical_step": "Finish readback of minimal Rota A scaffold, then request human mission and product definition.",
+  "no_new_spending": true
+}
