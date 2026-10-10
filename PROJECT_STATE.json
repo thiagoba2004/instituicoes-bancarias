@@ -7,15 +7,15 @@
   "project_id_legacy": "instituicoes-bancarias",
   "repository": "thiagoba2004/instituicoes-bancarias",
   "updated_at": "2026-10-10",
-  "status": "TECHNICAL_BOOTSTRAP_IN_PROGRESS",
+  "status": "TECHNICAL_BOOTSTRAP_VERIFIED_SUBSTANTIVE_SCOPE_PENDING",
   "generator_project_code": "PRJ-000002",
   "generator_strategy_code": "EA-000002-000025",
   "generator_route": "A",
   "generated_from_kernel": "1.11",
-  "current_strategy_code": "EA-000022-000001",
-  "current_strategy_name": "Inicialização técnica canônica pela Rota A",
-  "current_phase_code": "F-000022-000001-002",
-  "strategy_status": "EM_EXECUCAO",
+  "current_strategy_code": null,
+  "current_strategy_name": null,
+  "current_phase_code": null,
+  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
   "project_purpose_status": "PENDING_HUMAN_DEFINITION",
   "target_audience_status": "PENDING_HUMAN_DEFINITION",
   "products_and_services_status": "NOT_DEFINED",
@@ -36,10 +36,27 @@
     "INFORMATION_HANDLING_PROFILE.json",
     "estrategias/EA-000022-000001-bootstrap-rota-a.md"
   ],
-  "last_completed_milestone": "Project identity allocated and first remote commit created.",
+  "last_completed_milestone": "EA-000022-000001: arquivos mínimos no GitHub, perfil do Gerador e códigos verificados",
   "pending_items": [
-    "Define substantive purpose, target audience, deliverables and whether website is desired."
+    "Definição humana da missão substantiva, público-alvo e entregas do Projeto.",
+    "Decisão humana sobre necessidade de site público próprio (GitHub é público, Pages não solicitado).",
+    "Seleção de módulos setoriais após definição de escopo."
   ],
-  "next_logical_step": "Finish readback of minimal Rota A scaffold, then request human mission and product definition.",
-  "no_new_spending": true
+  "next_logical_step": "Solicitar definição de finalidade substantiva e primeiras entregas; não iniciar pesquisa, serviços ou site por inferência.",
+  "no_new_spending": true,
+  "last_concluded_strategy_code": "EA-000022-000001",
+  "last_concluded_strategy_name": "Inicialização técnica canônica do Instituições Bancárias pela Rota A",
+  "last_completed_phase": "F-000022-000001-004",
+  "initialization_gate": "PUBLIC_PROJECT_TECHNICAL_BOOTSTRAP_VERIFIED",
+  "initialization_verification": {
+    "date": "2026-10-10",
+    "method": "GITHUB_FETCH_FILE_READBACK",
+    "files_checked": 8,
+    "repo_public": true,
+    "local_request_and_strategy_jsonl_valid": true,
+    "generator_profile_verified": true,
+    "substantive_scope_approved": false,
+    "site_created": false,
+    "cost_added": false
+  }
 }
