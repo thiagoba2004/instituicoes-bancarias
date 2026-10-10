@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000022",
+  "project_name": "Instituições Bancárias",
+  "updated_at": "2026-10-10",
+  "repository": {
+    "visibility": "PUBLIC",
+    "verified_by": "GITHUB_METADATA_2026-10-10",
+    "surface": "P2_GIT_PUBLICO_REPOSITORIO",
+    "s2_or_higher_allowed": false,
+    "raw_s3_allowed": false,
+    "s4_allowed": false,
+    "confidential_content_allowed": false
+  },
+  "pages": {
+    "enabled": null,
+    "status": "NOT_REQUESTED_NOT_VERIFIED",
+    "publication_gate_required": true
+  },
+  "rules": {
+    "allowed": "S0_PUBLICO; S1 only if non-sensitive and publication-reviewed",
+    "personal_data": "No nonpublic individually identifiable education or banking information",
+    "secrets": "Never commit keys, credentials or tokens",
+    "sensitive_sources": "Use authorized private repository or vault; never public GitHub"
+  },
+  "retroactive_history_audit": {
+    "status": "NOT_PERFORMED",
+    "note": "Repository observed initially empty; commits still require review."
+  },
+  "basis": "PRJ-000002:REQ-20261010-002"
+}
