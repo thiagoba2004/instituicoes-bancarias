@@ -14,8 +14,8 @@
   "generated_from_kernel": "1.11",
   "current_strategy_code": "EA-000022-000002",
   "current_strategy_name": "Reconciliação de missão aprovada e handoff especializado",
-  "current_phase_code": "F-000022-000002-003",
-  "strategy_status": "IN_PROGRESS_SPECIALIZED_HANDOFF_PENDING",
+  "current_phase_code": "F-000022-000002-004",
+  "strategy_status": "IN_PROGRESS_A6_NATIVE_HANDOFF_PENDING",
   "project_purpose_status": "APPROVED_HUMAN_REQUEST_20261010_002",
   "target_audience_status": "PENDING_SPECIFIC_DEFINITION",
   "products_and_services_status": "FIRST_DELIVERABLES_TO_BE_DEFINED_BY_SPECIALIZED_PROJECT_NO_SERVICES_AUTHORIZED",
@@ -47,7 +47,7 @@
     "SCIV: F002/F003 publicadas com readback; F004 BLOCKED. enabled=false; instalação nativa e comportamento real pendentes.",
     "Definir primeiras entregas substantivas com IA especializada posteriormente, preservada missão já aprovada."
   ],
-  "next_logical_step": "Remediar bloqueios F004 (matriz histórica EA000001, fixture main externa e privilégio symlink); repetir gates falhos. F005 HUMAN somente após gate próprio; missão EA000002/C3/A6 preservada pendente.",
+  "next_logical_step": "SCIV F004 remains BLOCKED; CODEX Gerador ACT010 fixes retroactive first EA matrix gate and CODEX G0 ACT028 fixes branch/symlink test; then CODEX PRJ22 repeats F004. Mission/C3 native adapter is documentally reconciled, A6 still awaits future HUMAN installation. Do not enable SCIV.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000022-000001",
   "last_concluded_strategy_name": "Inicialização técnica canônica do Instituições Bancárias pela Rota A",
@@ -76,13 +76,13 @@
   "sciv_rollout": {
     "strategy_code": "EA-000022-000003",
     "global_strategy": "EA-000000-000034",
-    "status": "F002_F003_VERIFIED_F004_BLOCKED",
+    "status": "F002_F003_VERIFIED_F004_BLOCKED_UPSTREAM_FIXES_PLANNED",
     "operational_enabled": false,
     "opt_in_authorized": true,
     "mode": "ON_DEMAND",
     "local_plan_ref": "estrategias/EA-000022-000003-sciv-sob-demanda.md",
     "action_plan_ref": "estrategias/EA-000022-000003-actions.json",
-    "next_executor": "PRJ000022_GOVERNANCE_AND_UPSTREAM_OWNERS_THEN_CODEX",
+    "next_executor": "CODEX_LOCAL_PRJ000022_AFTER_CODEX_GERADOR_ACT010_AND_CODEX_G0_ACT028",
     "next_phase": "F-000022-000003-004",
     "mailbox_exists_verified": true,
     "native_installation_verified": false,
@@ -93,6 +93,20 @@
     "last_completed_scope": "DOCUMENTARY_REPOSITORY_ONLY",
     "next_handoff_ref": "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md",
     "verification_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
-    "evidence_ref": "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md"
+    "evidence_ref": "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
+    "remediation_refs": [
+      "thiagoba2004/gerador-de-agents/handoffs/codex/EA-000002-000027-F005-LEGACY-MATRIX-GATE.md",
+      "thiagoba2004/governanca-geral-modelos-ia/handoffs/codex/EA-000000-000034-F003-RUNTIME-BRANCH-SYMLINK.md"
+    ]
+  },
+  "mission_handoff": {
+    "strategy_code": "EA-000022-000002",
+    "last_completed_phase": "F-000022-000002-003",
+    "gate": "SPECIALIZED_HANDOFF_PACKAGE_READY_DOCUMENTARY_ONLY",
+    "adapter_ref": "adaptadores/chatgpt/INSTRUCOES.md",
+    "adapter_reconciliation_commit": "5d140d0fad7d1f0d89e4e167e28c8a09c4f2cc0d",
+    "native_instructions_installed": false,
+    "C3_binding_verified": false,
+    "A6_accepted": false
   }
 }
