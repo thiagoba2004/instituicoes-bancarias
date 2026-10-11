@@ -102,13 +102,20 @@
         "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
         "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
       ],
-      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "verification": "GitHub readback adaptadores/chatgpt/INSTRUCOES.md at commit 5d140d0, preserving SCIV managed block while correcting approved mission persistence and C3 native-unverified status; A6 remains unaccepted; no native UI action.",
       "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "completion_gate": "SPECIALIZED_HANDOFF_PACKAGE_READY"
+      "status": "VERIFIED",
+      "completion_gate": "SPECIALIZED_HANDOFF_PACKAGE_READY",
+      "verified_scope": "ADAPTER_DOCUMENT_READY_FOR_HUMAN_INSTALLATION_ONLY",
+      "evidence_refs": [
+        "adaptadores/chatgpt/INSTRUCOES.md",
+        "AGENTS.md",
+        "PROJECT_STATE.json",
+        "REQ-000022-20261010-002"
+      ]
     },
     {
       "action_key": "ACT-000022-000002-004",
