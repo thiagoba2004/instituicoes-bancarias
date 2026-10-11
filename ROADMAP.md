@@ -44,3 +44,10 @@ As seções anteriores descrevem o corte histórico do bootstrap de 10/10. A **m
 F002 e F003 verificadas documentalmente no commit `6700203cffa3ad1471aa68e78e40dea060a45790`, publicado e relido (19 blobs). Caixas locais vazias, adaptador integral com bloco SCIV e testes versionados. F004 BLOCKED: gate Rota A exige matriz histórica EA000001 ausente; fixture upstream de branch desatualizada e symlink Windows bloqueado. Oito testes locais e 61 Gerador passaram; runtime 154/156 cenários após retry UTF-8, sem aprovação integral. Relatório `auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md`.
 
 Próximo passo: governança e owners resolvem bloqueios com mandato próprio, Codex repete gates falhos; F005 aguarda. `enabled=false`, instalação nativa, C3/A6 e comportamento real não comprovados. EA000002 preservada; EA SCIV e gate global não concluídos.
+
+
+## Checkpoint G0 — 11/10/2026: remediação F004 sem backfill fictício
+
+O resultado do Codex foi relido no GitHub: **EA-000022-000003 F002/F003 VERIFICADAS no repositório, F004 BLOCKED**. Correção independente documental em `adaptadores/chatgpt/INSTRUCOES.md` (commit `5d140d0`) reconciliou missão aprovada já persistida, escolha humana C3 **ainda não instalada nativamente**, mantendo o bloco SCIV. **EA-000022-000002 F003**: pacote pronto só em escopo de documentos; F004 A6 ainda pendente.
+
+A G0 não criou matriz retroativa fictícia para a primeira EA de 10/10. A remediação de código será executada em `thiagoba2004/gerador-de-agents` pelo Codex (EA-000002-000027 ACT010) para compatibilidade com Rota A histórica; e na G0 pelo Codex (EA-000000-000034 ACT028) para fixture branch/symlink. Depois o Codex neste Projeto repetirá `EA-000022-000003 F004` com evidências reais. `enabled=false`, C3 nativo, A6 e comportamento real permanecem não comprovados. F003 global ainda não foi aceita. Referência G0: `auditorias/EA-000000-000034-F003-codex-prj000022-remediacoes-2026-10-11.md`.
