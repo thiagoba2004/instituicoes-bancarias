@@ -7,7 +7,7 @@
       "action_key": "ACT-000022-000003-001",
       "phase_code": "F-000022-000003-001",
       "description": "Registrar plano local SCIV, mandato, opt-in e identidade dual sem ativação operacional",
-      "result_ref": "SCIV_ADMISSAO_REGISTRADA",
+      "result_ref": "estrategias/EA-000022-000003-sciv-sob-demanda.md",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CHAT",
       "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
@@ -18,7 +18,7 @@
         "estrategias/EA-000022-000003-sciv-sob-demanda.md",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/SCIV_ADMISSAO_REGISTRADA",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/estrategias/EA-000022-000003-sciv-sob-demanda.md",
       "routing_action_id": "GITHUB_DOC_WRITE",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -31,13 +31,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "SCIV_ADMISSAO_REGISTRADA"
     },
     {
       "action_key": "ACT-000022-000003-002",
       "phase_code": "F-000022-000003-002",
       "description": "Criar SCIV_STATE ON_DEMAND e caixas locais bilaterais/históricos, com revisão de classificação e readback",
-      "result_ref": "CAIXAS_VERSIONADAS",
+      "result_ref": "comunicados/SCIV_STATE.json",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CODEX",
       "executor_scope": "Codex local no checkout thiagoba2004/instituicoes-bancarias",
@@ -48,7 +49,7 @@
         "comunicados/SCIV_STATE.json",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/CAIXAS_VERSIONADAS",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/comunicados/SCIV_STATE.json",
       "routing_action_id": "CODE_REFACTOR",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -61,13 +62,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "CAIXAS_VERSIONADAS"
     },
     {
       "action_key": "ACT-000022-000003-003",
       "phase_code": "F-000022-000003-003",
       "description": "Compor bloco SCIV no adaptador integral preservando missão C3 e demais bytes",
-      "result_ref": "INSTRUCOES_VERSIONADAS",
+      "result_ref": "adaptadores/chatgpt/INSTRUCOES.md",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CODEX",
       "executor_scope": "Codex local no checkout thiagoba2004/instituicoes-bancarias",
@@ -78,7 +80,7 @@
         "adaptadores/chatgpt/INSTRUCOES.md",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/INSTRUCOES_VERSIONADAS",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/adaptadores/chatgpt/INSTRUCOES.md",
       "routing_action_id": "CODE_REFACTOR",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -91,13 +93,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "INSTRUCOES_VERSIONADAS"
     },
     {
       "action_key": "ACT-000022-000003-004",
       "phase_code": "F-000022-000003-004",
       "description": "Testar idempotência/opt-in sem leitura automática, gate documental --gate sciv e readback",
-      "result_ref": "SCIV_REPO_VERIFICADO",
+      "result_ref": "governanca/testes-sciv/",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CODEX",
       "executor_scope": "Codex local no checkout thiagoba2004/instituicoes-bancarias",
@@ -108,7 +111,7 @@
         "governanca/testes-sciv/",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/SCIV_REPO_VERIFICADO",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/governanca/testes-sciv/",
       "routing_action_id": "CODE_REFACTOR",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -121,13 +124,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "SCIV_REPO_VERIFICADO"
     },
     {
       "action_key": "ACT-000022-000003-005",
       "phase_code": "F-000022-000003-005",
       "description": "Instalar Instruções integrais na interface nativa após commit verificado; registrar atestado próprio",
-      "result_ref": "NATIVE_INSTRUCTIONS_HUMAN_ATTESTED",
+      "result_ref": "governanca/recebimentos/",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "HUMAN",
       "executor_scope": "Titular na interface nativa do Projeto ChatGPT correspondente",
@@ -138,7 +142,7 @@
         "governanca/recebimentos/",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/NATIVE_INSTRUCTIONS_HUMAN_ATTESTED",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/governanca/recebimentos/",
       "routing_action_id": "HUMAN_INTERVENTION",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -151,13 +155,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "NATIVE_INSTRUCTIONS_HUMAN_ATTESTED"
     },
     {
       "action_key": "ACT-000022-000003-006",
       "phase_code": "F-000022-000003-005",
       "description": "Publicar Comunicado A6 real e recolher resposta especializada sob demanda, preservando relatório histórico",
-      "result_ref": "A6_POS_INSTALACAO_CLASSIFICADO",
+      "result_ref": "comunicados/governanca-geral/mensagens/",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CHAT",
       "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
@@ -168,7 +173,7 @@
         "comunicados/governanca-geral/mensagens/",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/A6_POS_INSTALACAO_CLASSIFICADO",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/comunicados/governanca-geral/mensagens/",
       "routing_action_id": "GITHUB_DOC_WRITE",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -181,13 +186,14 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "A6_POS_INSTALACAO_CLASSIFICADO"
     },
     {
       "action_key": "ACT-000022-000003-007",
       "phase_code": "F-000022-000003-006",
       "description": "Qualificar testes reais SCIV sob demanda, tratamento/respostas e arquivamento bilateral, sem fabricar recibos",
-      "result_ref": "SCIV_COMPORTAMENTO_CLASSIFICADO",
+      "result_ref": "comunicados/tratamentos/",
       "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
       "executor": "CHAT",
       "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
@@ -198,7 +204,7 @@
         "comunicados/tratamentos/",
         "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
       ],
-      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/SCIV_COMPORTAMENTO_CLASSIFICADO",
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/comunicados/tratamentos/",
       "routing_action_id": "GITHUB_READ",
       "authorization_ref": "REQ-GLOBAL-20261011-001",
       "preconditions": [
@@ -211,7 +217,9 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "PLANNED",
+      "completion_gate": "SCIV_COMPORTAMENTO_CLASSIFICADO"
     }
-  ]
+  ],
+  "notes": "Retificação controlada de deslocamento de campos result_ref/destination_ref/completion_gate identificada no mesmo ciclo de criação; nenhuma ação de código executada."
 }
