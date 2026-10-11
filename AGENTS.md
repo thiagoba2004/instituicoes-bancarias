@@ -10,7 +10,7 @@
 
 ## 1. Estado da missão
 
-Este é um Projeto novo sobre o tema nominal **instituições bancárias**. Sua **finalidade substantiva, público-alvo e tipos de entrega permanecem PENDENTES DE DEFINIÇÃO HUMANA**. Não deduzir, a partir do nome, que o Projeto oferecerá ensino, certificação, serviços bancários, dados financeiros, produtos regulados ou representação institucional.
+Este Projeto possui **missão humana aprovada** em `REQ-000022-20261010-002`: estudar, organizar e comparar documentalmente bancos e instituições financeiras brasileiras. O público-alvo, primeiras entregas e respectivos critérios de aceite ainda exigem delimitação e prova próprias; não reabrir aprovação da missão. O titular aprovou a recomendação de Projeto ChatGPT especializado com C3, mas vínculo B1, configuração nativa C3 e recebimento A6 não estão tecnicamente comprovados. Não prestar serviços financeiros, coletar dados privados de clientes nem alegar representação institucional.
 
 ## 2. Fonte normativa e continuidade
 
@@ -38,9 +38,9 @@ O repositório é público. Proibido enviar credenciais, informações S2+, extr
 
 Distinguir `PLANEJADO`, `SALVO`, `VERSIONADO`, `PUBLICADO` e `VERIFICADO`. Não apresentar fontes de domínio como verificadas sem consulta e referência.
 
-## 6. Próximo gate humano
+## 6. Próximos gates de handoff e SCIV
 
-Concluir o bootstrap mínimo em `EA-000022-000001`, conferir `PROJECT_STATE.json` e `ROADMAP.md`, e solicitar missão, público-alvo e primeira entrega antes de ativar o trabalho substantivo. A governança não deve gerar tarefas apenas para justificar sua existência.
+A EA-000022-000001 foi concluída tecnicamente. A missão aprovada está formalizada em `EA-000022-000002`, permanecendo pendentes instalação humana das Instruções nativas, prova de vínculo/contexto C3 e teste A6 especializado. O SCIV sob demanda pertence exclusivamente à EA-000022-000003, com alterações de código e testes reservados ao Codex no repositório local, e não será ativado antes de provisionamento/readback. A governança não deve gerar tarefas apenas para justificar sua existência.
 
 ## Adaptador ChatGPT — persistência independente da plataforma
 
@@ -63,3 +63,11 @@ Em todo teste futuro do recebimento, registrar o pedido, executar leitura compro
 O Chat especializado deve receber **Instruções e prompt de homologação com caminho e regra de persistência**, conforme a seção 7 de `thiagoba2004/gerador-de-agents/GERADOR_WORKFLOW.md`. Se o conector não puder escrever, fornecer o Markdown completo e registrar `NOT_PERSISTED`, sem simular GitHub. A cópia do adaptador `adaptadores/chatgpt/INSTRUCOES.md` permanece versionada; não presumir sincronização automática com a configuração da interface ChatGPT.
 
 Este índice e a migração não demonstram vínculo administrativo do Projeto ChatGPT, C3 efetivo, publicação de Site/Pages ou aceitação integral do Gate A6. Preservar o estado verificado no `PROJECT_STATE.json` até cumprir os requisitos próprios de homologação. Conteúdo S2+, credenciais e dados não públicos **não devem entrar em Git público**.
+
+
+## Estratégias atuais reconciliadas — 11/10/2026
+
+- `EA-000022-000002` — missão aprovada/handoff C3, em andamento até prova nativa e A6; fonte `REQ-000022-20261010-002`.
+- `EA-000022-000003` — SCIV ON_DEMAND, criada documentalmente e **aguardando CODEX** para caixas/adaptador/testes; fonte `REQ-000022-20261011-005` e `EA-000000-000034`. `enabled=false` até implantação provada.
+
+Não confundir criação de Plano com execução técnica. Site Pages não autorizado; preservar a regra de classificação S0/S1 revisado em Git público.
