@@ -1,0 +1,7 @@
+{
+  "base_commit": "181a6ecec5972e7610817b521ef99250b57ccd33",
+  "original_adapter_sha256": "40925bc8047d8dba072d242d9ec0e472529792788012202ed0a4c12942ccce04",
+  "template_sha256": "b92a83c26388edcc77c6d8394786bac0020050f614f5e9656c5e177c5d2031e8",
+  "composed_adapter_sha256": "4d378fd9b458f2a0f9a660c2ccdcef8ea15de8a4190c8d9ba636e654007d1d66",
+  "method": "Explicit local handoff composition; NOT generator render with invented binding evidence"
+}

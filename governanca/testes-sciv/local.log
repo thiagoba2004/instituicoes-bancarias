@@ -1,0 +1,11 @@
+test_corrupt_block_not_overwritten (test_local.LocalContractTests.test_corrupt_block_not_overwritten) ... ok
+test_idempotent_upstream_composition_offline_fixture_only (test_local.LocalContractTests.test_idempotent_upstream_composition_offline_fixture_only) ... ok
+test_native_gates_not_promoted (test_local.LocalContractTests.test_native_gates_not_promoted) ... ok
+test_no_fabricated_messages (test_local.LocalContractTests.test_no_fabricated_messages) ... ok
+test_original_bytes_preserved (test_local.LocalContractTests.test_original_bytes_preserved) ... ok
+test_unauthorized_composition_denied (test_local.LocalContractTests.test_unauthorized_composition_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.066s
+
+OK

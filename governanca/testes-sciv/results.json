@@ -1,0 +1,18 @@
+[
+  {
+    "name": "local",
+    "exit_code": 0
+  },
+  {
+    "name": "generator",
+    "exit_code": 0
+  },
+  {
+    "name": "runtime",
+    "exit_code": 1
+  },
+  {
+    "name": "gate-sciv",
+    "exit_code": 1
+  }
+]
