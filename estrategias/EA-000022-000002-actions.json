@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "strategy_code": "EA-000022-000002",
+  "plan_ref": "estrategias/EA-000022-000002-missao-handoff-especializado.md",
+  "actions": [
+    {
+      "action_key": "ACT-000022-000002-001",
+      "phase_code": "F-000022-000002-001",
+      "description": "Registrar EA da missão aprovada, plano/matriz, request existente e CREATED sem fabricar passado",
+      "result_ref": "estrategias/EA-000022-000002-missao-handoff-especializado.md",
+      "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
+      "tool": "GitHub connector read/write",
+      "environment": "Chat global G0",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "REQUEST_LOG.jsonl",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/estrategias/EA-000022-000002-missao-handoff-especializado.md",
+      "routing_action_id": "GITHUB_DOC_WRITE",
+      "authorization_ref": "REQ-000022-20261010-002",
+      "preconditions": [
+        "PRJ/EA/F e Git HEAD comprovados",
+        "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
+        "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
+      ],
+      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "completion_gate": "MISSION_EA_IDENTITY_REGISTERED",
+      "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
+      "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000022-000002-002",
+      "phase_code": "F-000022-000002-002",
+      "description": "Reconciliar missão aprovada em AGENTS/PROJECT_STATE/ROADMAP e identificar limites de módulos sem pesquisa substantiva",
+      "result_ref": "APPROVED_MISSION_RECONCILED_IN_REPOSITORY",
+      "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
+      "tool": "GitHub connector read/write",
+      "environment": "Chat global G0",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "PROJECT_STATE.json",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/APPROVED_MISSION_RECONCILED_IN_REPOSITORY",
+      "routing_action_id": "GITHUB_DOC_WRITE",
+      "authorization_ref": "REQ-000022-20261010-002",
+      "preconditions": [
+        "PRJ/EA/F e Git HEAD comprovados",
+        "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
+        "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
+      ],
+      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
+      "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000022-000002-003",
+      "phase_code": "F-000022-000002-003",
+      "description": "Preparar instruções integrais para instalação C3 humana e verificar a identidade do Projeto sem presumir a UI",
+      "result_ref": "SPECIALIZED_HANDOFF_PACKAGE_READY",
+      "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Chat global via GitHub connector, sem substituir IA especializada",
+      "tool": "GitHub connector read/write",
+      "environment": "Chat global G0",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "adaptadores/chatgpt/INSTRUCOES.md",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/SPECIALIZED_HANDOFF_PACKAGE_READY",
+      "routing_action_id": "GITHUB_DOC_WRITE",
+      "authorization_ref": "REQ-000022-20261010-002",
+      "preconditions": [
+        "PRJ/EA/F e Git HEAD comprovados",
+        "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
+        "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
+      ],
+      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
+      "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000022-000002-004",
+      "phase_code": "F-000022-000002-004",
+      "description": "Executar teste real de recebimento A6 no Projeto especializado após instalação C3 atestada",
+      "result_ref": "A6_RECEIPT_CLASSIFIED",
+      "accountable_owner": "PRJ-000022_GOVERNANCA_LOCAL",
+      "executor": "HUMAN",
+      "executor_scope": "Titular na interface nativa do Projeto ChatGPT correspondente",
+      "tool": "ChatGPT native Project UI + GitHub approved tooling",
+      "environment": "Projeto ChatGPT correspondente, intervenção humana",
+      "context_mode": "B1_ONLY_AFTER_HUMAN_VERIFICATION",
+      "source_refs": [
+        "governanca/recebimentos/",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/instituicoes-bancarias/A6_RECEIPT_CLASSIFIED",
+      "routing_action_id": "HUMAN_INTERVENTION",
+      "authorization_ref": "REQ-000022-20261010-002",
+      "preconditions": [
+        "PRJ/EA/F e Git HEAD comprovados",
+        "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
+        "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
+      ],
+      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
+      "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    }
+  ]
+}
