@@ -38,3 +38,9 @@ As seções anteriores descrevem o corte histórico do bootstrap de 10/10. A **m
 - **EA-000022-000003 — SCIV Essencial Sob Demanda:** `estrategias/EA-000022-000003-sciv-sob-demanda.md`; `CREATED`, `PLANNED_AWAITING_CODEX`, fase F001 documental preparada. **Sem caixas provisionadas, `enabled=false` e sem leitura automática.** Próxima implementação F002-F004, executor Codex CLI local no checkout do PRJ-000022, jamais G0/CHAT. Separação do domínio preservada.
 
 **Gate local e global:** registrar dual no portfólio da Governança Geral com readback. Sem site Pages, serviços financeiros ou publicação sensível. A prova de registro não conclui gate `PRJ000022_SCIV_REPO_VERIFIED` da global `EA-000000-000034`.
+
+## Execução CODEX F002–F004 — 11/10/2026
+
+F002 e F003 verificadas documentalmente no commit `6700203cffa3ad1471aa68e78e40dea060a45790`, publicado e relido (19 blobs). Caixas locais vazias, adaptador integral com bloco SCIV e testes versionados. F004 BLOCKED: gate Rota A exige matriz histórica EA000001 ausente; fixture upstream de branch desatualizada e symlink Windows bloqueado. Oito testes locais e 61 Gerador passaram; runtime 154/156 cenários após retry UTF-8, sem aprovação integral. Relatório `auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md`.
+
+Próximo passo: governança e owners resolvem bloqueios com mandato próprio, Codex repete gates falhos; F005 aguarda. `enabled=false`, instalação nativa, C3/A6 e comportamento real não comprovados. EA000002 preservada; EA SCIV e gate global não concluídos.

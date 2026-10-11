@@ -17,3 +17,7 @@ Implantar as duas caixas documentais SCIV no próprio `thiagoba2004/instituicoes
 As fases 002–004 dependem **exclusivamente de Codex CLI local no checkout PRJ-000022**, sujeito a autorização/gates; CHAT/G0 apenas coordena e registra documentos de governança. F005 requer ato humano na interface do ChatGPT, e a IA especializada só lê mensagens após pedido do titular. Site Pages não autorizado; não modificar bibliotecas, dados bancários privados ou estratégia de missão. A criação desta EA **não** prova nenhuma implantação.
 
 **Matriz:** [EA-000022-000003-actions.json](EA-000022-000003-actions.json). Status de cada ação permanece PLANNED até evidência real. Registros globais são derivados dos arquivos locais com readback.
+
+## Checkpoint CODEX — 11/10/2026
+
+F002/F003 VERIFIED_DOCUMENTARY_REPOSITORY_ONLY após publicação/readback de `6700203cffa3ad1471aa68e78e40dea060a45790` (19 blobs); F004 BLOCKED. Relatório em `auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md`. Gate sciv FAIL por matriz histórica EA000001 ausente; runtime com fixture main obsoleta e symlink Windows sem privilégio. Próximo executor: governança/owners para remediação, depois CODEX para repetir gates falhos. F005 HUMAN e F006 não executadas; enabled=false; sem conclusão da EA ou gate global.

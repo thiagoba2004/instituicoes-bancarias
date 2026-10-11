@@ -17,7 +17,7 @@
   "s1_requires_byte_specific_review": true,
   "s2_plus_allowed": false,
   "base_commit": "181a6ecec5972e7610817b521ef99250b57ccd33",
-  "state": "PROVISIONED_PENDING_COMMIT_READBACK",
+  "state": "F002_F003_REPOSITORY_VERIFIED_F004_BLOCKED_NATIVE_PENDING",
   "native_installation_verified": false,
   "specialized_read_verified": false,
   "real_behavior_verified": false,
@@ -26,5 +26,7 @@
   "automations": false,
   "new_spending": false,
   "evidence_ref": "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
-  "activation_limit": "Technical documentary opt-in only after commit/readback; native and real behavior gates remain separate."
+  "activation_limit": "Technical documentary opt-in only after commit/readback; native and real behavior gates remain separate.",
+  "provision_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
+  "readback_ref": "governanca/testes-sciv/readback-implementation.json"
 }

@@ -69,8 +69,15 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "completion_gate": "CAIXAS_VERSIONADAS"
+      "status": "VERIFIED",
+      "completion_gate": "CAIXAS_VERSIONADAS",
+      "verified_scope": "DOCUMENTARY_REPOSITORY_ONLY_NO_NATIVE_OR_LIVE_EFFECT",
+      "verification_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
+      "evidence_refs": [
+        "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
+        "governanca/testes-sciv/readback-implementation.json",
+        "governanca/testes-sciv/local-final.log"
+      ]
     },
     {
       "action_key": "ACT-000022-000003-003",
@@ -100,8 +107,15 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "completion_gate": "INSTRUCOES_VERSIONADAS"
+      "status": "VERIFIED",
+      "completion_gate": "INSTRUCOES_VERSIONADAS",
+      "verified_scope": "DOCUMENTARY_REPOSITORY_ONLY_NO_NATIVE_OR_LIVE_EFFECT",
+      "verification_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
+      "evidence_refs": [
+        "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
+        "governanca/testes-sciv/readback-implementation.json",
+        "governanca/testes-sciv/local-final.log"
+      ]
     },
     {
       "action_key": "ACT-000022-000003-004",
@@ -131,8 +145,15 @@
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "completion_gate": "SCIV_REPO_VERIFICADO"
+      "status": "BLOCKED",
+      "completion_gate": "SCIV_REPO_VERIFICADO",
+      "block_reason": "FIRST_EA_ACTION_PLAN_UNVERIFIED; external runtime stale main fixture; Windows symlink WinError 1314",
+      "next_action": "Governance reconciles historical matrix; upstream owner fixes branch fixture; compatible environment reruns symlink; Codex reruns failed gates under proper mandate.",
+      "evidence_refs": [
+        "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
+        "governanca/testes-sciv/gate-sciv.log",
+        "governanca/testes-sciv/runtime.log"
+      ]
     },
     {
       "action_key": "ACT-000022-000003-005",
