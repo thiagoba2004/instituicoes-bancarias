@@ -38,7 +38,8 @@
     "estrategias/EA-000022-000002-missao-handoff-especializado.md",
     "estrategias/EA-000022-000002-actions.json",
     "estrategias/EA-000022-000003-sciv-sob-demanda.md",
-    "estrategias/EA-000022-000003-actions.json"
+    "estrategias/EA-000022-000003-actions.json",
+    "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md"
   ],
   "last_completed_milestone": "EA-000022-000001: arquivos mínimos no GitHub, perfil do Gerador e códigos verificados",
   "pending_items": [
@@ -46,7 +47,7 @@
     "SCIV EA-000022-000003: provisionamento de caixas/adaptador/testes por Codex local conforme ação global ACT-000000-000034-004, sem ativação automática.",
     "Definir primeiras entregas substantivas com IA especializada posteriormente, preservada missão já aprovada."
   ],
-  "next_logical_step": "EA-000022-000002: handoff C3/A6 continua pendente; EA-000022-000003 SCIV criada documentalmente, próximo executor Codex local no checkout thiagoba2004/instituicoes-bancarias para F002-F004 com preflight e gates. Não usar CHAT para edição de código; G0 deve concluir registro dual.",
+  "next_logical_step": "F-000022-000003-002/003/004: CODEX CLI local no checkout de thiagoba2004/instituicoes-bancarias deve executar handoffs/codex/EA-000022-000003-SCIV-F002-F004.md; G0 não modifica código. Missão EA-000022-000002 F003 permanece pendente de prova C3 nativa/handoff; A6 não aceito.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000022-000001",
   "last_concluded_strategy_name": "Inicialização técnica canônica do Instituições Bancárias pela Rota A",
@@ -75,7 +76,7 @@
   "sciv_rollout": {
     "strategy_code": "EA-000022-000003",
     "global_strategy": "EA-000000-000034",
-    "status": "CREATED_PLANNED_AWAITING_CODEX_NO_PROVISIONING",
+    "status": "F001_DOCUMENTARY_VERIFIED_F002_READY_CODEX_REQUIRED",
     "operational_enabled": false,
     "opt_in_authorized": true,
     "mode": "ON_DEMAND",
@@ -85,6 +86,11 @@
     "next_phase": "F-000022-000003-002",
     "mailbox_exists_verified": false,
     "native_installation_verified": false,
-    "sciv_behavior_verified": false
+    "sciv_behavior_verified": false,
+    "current_phase": "F-000022-000003-002",
+    "last_completed_phase": "F-000022-000003-001",
+    "last_completed_gate": "SCIV_ADMISSAO_REGISTRADA",
+    "last_completed_scope": "DOCUMENTARY_ONLY",
+    "next_handoff_ref": "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md"
   }
 }
