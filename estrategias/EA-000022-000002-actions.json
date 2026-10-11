@@ -26,13 +26,20 @@
         "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
         "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
       ],
-      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "verification": "Readback local plan/matrix/request/CREATED/state/ROADMAP and dual PORTFOLIO_STRATEGY_REGISTRY.jsonl; documentary gate verified, NOT C3/A6 nor SCIV provisioned.",
       "completion_gate": "MISSION_EA_IDENTITY_REGISTERED",
       "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "evidence_refs": [
+        "STRATEGY_LOG.jsonl",
+        "PROJECT_STATE.json",
+        "PROJECT_STATE.json",
+        "thiagoba2004/governanca-geral-modelos-ia/PORTFOLIO_STRATEGY_REGISTRY.jsonl"
+      ],
+      "verified_scope": "DOCUMENTARY_ONLY_NO_RUNTIME_EFFECT"
     },
     {
       "action_key": "ACT-000022-000002-002",
@@ -57,13 +64,20 @@
         "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
         "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
       ],
-      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "verification": "Readback local plan/matrix/request/CREATED/state/ROADMAP and dual PORTFOLIO_STRATEGY_REGISTRY.jsonl; documentary gate verified, NOT C3/A6 nor SCIV provisioned.",
       "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED",
-      "completion_gate": "APPROVED_MISSION_RECONCILED_IN_REPOSITORY"
+      "status": "VERIFIED",
+      "completion_gate": "APPROVED_MISSION_RECONCILED_IN_REPOSITORY",
+      "evidence_refs": [
+        "STRATEGY_LOG.jsonl",
+        "PROJECT_STATE.json",
+        "PROJECT_STATE.json",
+        "thiagoba2004/governanca-geral-modelos-ia/PORTFOLIO_STRATEGY_REGISTRY.jsonl"
+      ],
+      "verified_scope": "DOCUMENTARY_ONLY_NO_RUNTIME_EFFECT"
     },
     {
       "action_key": "ACT-000022-000002-003",
