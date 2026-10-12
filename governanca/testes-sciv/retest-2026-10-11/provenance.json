@@ -1,0 +1,28 @@
+{
+  "project_base": "369cd419a7e060275800684612df1c9b561094d1",
+  "classification": "S1_REVIEWED_FOR_P2",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "package_source": "read-only ../.venvs/sciv-issue5/Lib/site-packages",
+    "no_installs": true
+  },
+  "siblings": [
+    {
+      "repository": "gerador-de-agents",
+      "head": "bd754a114b77bff6f3035a932f35b3167b4cb982",
+      "status": "## main...origin/main\n?? .sciv-issue5-worktree/\n?? tools/__pycache__/",
+      "worktrees": "C:/Users/sony/MeusProjetos/gerador-de-agents                       bd754a1 [main]\nC:/Users/sony/MeusProjetos/gerador-de-agents/.sciv-issue5-worktree b7ff109 [integration/sciv-issue5-local-20261011]",
+      "used_snapshot_commit": "bd754a114b77bff6f3035a932f35b3167b4cb982",
+      "required_ancestor_verified": "8a25dbdf37404016719b8595fca6fc3e3c354620"
+    },
+    {
+      "repository": "governanca-geral-modelos-ia",
+      "head": "56e1ec4d02048191e43b666a0dc2f8e346087e18",
+      "status": "## main...origin/main\n M runtime/test_sciv_archive.py\n M runtime/test_sciv_essential.py\n?? .ea034-act028-evidence/\n?? .sciv-issue5-evidence/\n?? .sciv-issue5-lf-exact/\n?? .sciv-issue5-lf-reproduction/\n?? .sciv-issue5-worktree/\n?? auditorias/EA-000000-000034/",
+      "worktrees": "C:/Users/sony/MeusProjetos/governanca-geral-modelos-ia                       56e1ec4 [main]\nC:/Users/sony/MeusProjetos/governanca-geral-modelos-ia/.sciv-issue5-worktree 56e1ec4 [integration/sciv-issue5-local-20261011]",
+      "used_snapshot_commit": "85a91ce837e89b4821ff4d180d0832687bfb8bb8",
+      "required_ancestor_verified": "0f68602844a155e71c7433b54a3bc9ff8de002f3"
+    }
+  ]
+}

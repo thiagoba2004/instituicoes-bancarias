@@ -21,3 +21,7 @@ As fases 002–004 dependem **exclusivamente de Codex CLI local no checkout PRJ-
 ## Checkpoint CODEX — 11/10/2026
 
 F002/F003 VERIFIED_DOCUMENTARY_REPOSITORY_ONLY após publicação/readback de `6700203cffa3ad1471aa68e78e40dea060a45790` (19 blobs); F004 BLOCKED. Relatório em `auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md`. Gate sciv FAIL por matriz histórica EA000001 ausente; runtime com fixture main obsoleta e symlink Windows sem privilégio. Próximo executor: governança/owners para remediação, depois CODEX para repetir gates falhos. F005 HUMAN e F006 não executadas; enabled=false; sem conclusão da EA ou gate global.
+
+## Reteste CODEX F004 ? 11/10/2026
+
+F004/ACT-000022-000003-004: **VERIFIED_WITH_ENV_LIMITATION**, sem aceite integral. 8 locais PASS; 88 Gerador PASS; runtime 158 PASS + 1 SKIP f?sico WinError 1314; 12 PEP offline PASS. Gate sciv PASS, EA hist?rica NOT_BACKFILLED e matriz corrente PASS; bootstrap estrito FAIL esperado. Guard controlado e sensibilidade comprovados. Relat?rio: `auditorias/EA-000022-000003-codex-f004-retest-2026-10-11.md`. Depend?ncias imut?veis bd754a1/85a91ce verificadas; checkouts irm?os preservados. G0/governan?a local avalia o aceite da limita??o ou determina prova f?sica em ambiente compat?vel. F005 n?o iniciada; enabled=false; C3/A6/PEP live pendentes. Os registros anteriores permanecem cortes hist?ricos.

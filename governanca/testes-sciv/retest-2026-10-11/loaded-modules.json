@@ -1,0 +1,18 @@
+{
+  "sciv_bootstrap": {
+    "path": ".f004-sources\\generator\\tools\\sciv_bootstrap.py",
+    "sha256": "2e0c4c940496376b3f1ad0208c4fcc6a548811ed65bc33dc2e9fc1ef6a231336"
+  },
+  "sciv_essential": {
+    "path": ".f004-sources\\g0-snapshot\\runtime\\sciv_essential.py",
+    "sha256": "56aeabb4414ce5387512ef19ed85f71015ef1c3775af589e4eb390c8901d95b7"
+  },
+  "sciv_mailbox": {
+    "path": ".f004-sources\\g0-snapshot\\runtime\\sciv_mailbox.py",
+    "sha256": "25119cc12a28f9abfbf486e530b9377ef9d27313b01aeefa58125173604115c2"
+  },
+  "test_sciv_archive": {
+    "path": ".f004-sources\\g0-snapshot\\runtime\\test_sciv_archive.py",
+    "sha256": "cf56b2931e20c5510b142eb31bafb56b69b45a7b8781d8acef1630d380132901"
+  }
+}

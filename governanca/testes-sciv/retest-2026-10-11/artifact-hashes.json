@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "local": {
+      "run": 8,
+      "skip": 0
+    },
+    "generator": {
+      "run": 88,
+      "skip": 0
+    },
+    "runtime": {
+      "run": 159,
+      "skip": 1
+    },
+    "pep-offline": {
+      "run": 12,
+      "skip": 0
+    }
+  },
+  "sha256": {
+    "governanca\\testes-sciv\\retest-2026-10-11\\controlled-sensitivity.log": "337065d036486aefc2d106484e22c92d36569faa58fb3dbfaca5033de89a8685",
+    "governanca\\testes-sciv\\retest-2026-10-11\\gate-bootstrap-expected-fail.log": "6139ea872f7e0cf70a7a940a7b096e30a7be7d980b5518d3904ca93b9b172363",
+    "governanca\\testes-sciv\\retest-2026-10-11\\gate-sciv-status-validation-attempt.log": "2c8809b7da9273307fcd54bbb5680d9e5c964974b83b12858376309379e576f4",
+    "governanca\\testes-sciv\\retest-2026-10-11\\gate-sciv.log": "f051b99425085503d89850d4a761864445c4d45522755138a830448a828a2d55",
+    "governanca\\testes-sciv\\retest-2026-10-11\\generator.log": "e660401345b26666cc3f06ea2bfab6647e86a340c711a94a21ac41c871b2a836",
+    "governanca\\testes-sciv\\retest-2026-10-11\\loaded-modules.json": "4176af042da88b860594f4f21d694988fd6e03c10db7c2e12e13797355c1c12b",
+    "governanca\\testes-sciv\\retest-2026-10-11\\local-attempt1.log": "61f5edcc87362bfc8a1868c2d2356f1ac23a6e3b842b28c5085293110854fc7f",
+    "governanca\\testes-sciv\\retest-2026-10-11\\local.log": "1bb09fae616f18ef0b3967dc599bd4dad1e45584012f9a02f94a1abc1cc554cd",
+    "governanca\\testes-sciv\\retest-2026-10-11\\pep-offline.log": "efea3b71bedf835eeae2c083c4cacb533e0c90eadfec5fa0f6e0a576fdd73960",
+    "governanca\\testes-sciv\\retest-2026-10-11\\provenance.json": "c4589268587a161f94f727c3c45d5968e18d14153f4d4b9acc61d2ca2f55e80e",
+    "governanca\\testes-sciv\\retest-2026-10-11\\results-attempt1.json": "11b70aaa90c2d64db95c614149118b9e383b99493bed5dac9114bfea2b432d19",
+    "governanca\\testes-sciv\\retest-2026-10-11\\results.json": "058fafee1a65811e359d21870d835846dc13ee97145dcb6b6078df9b17690a6d",
+    "governanca\\testes-sciv\\retest-2026-10-11\\runtime.log": "d0dd96244a47b74e511ee4fd917f8d26f37240e242cb8b53356556d0c36f1613",
+    "governanca\\testes-sciv\\retest-2026-10-11\\source-hashes.json": "c37b49c2cbc6be8a53c0c3c123f58f0f9db32c94b15455b026af80785f44a125"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mutation_detected": true,
+  "expected_negative_test_failures": 1,
+  "unexpected_errors": 0,
+  "routing": {
+    "status": "ALLOW",
+    "action_id": "CODE_REFACTOR",
+    "requested_executor": "CODEX",
+    "required_executor": "CODEX",
+    "project_code": null,
+    "reason": null,
+    "routing_only": true,
+    "grants_authorization": false,
+    "executes_effects": false
+  },
+  "runtime_source_changed": false
+}

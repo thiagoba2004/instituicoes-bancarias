@@ -7,7 +7,7 @@
   "project_id_legacy": "instituicoes-bancarias",
   "repository": "thiagoba2004/instituicoes-bancarias",
   "updated_at": "2026-10-11",
-  "status": "MISSION_APPROVED_SCIV_REPOSITORY_PROVISIONED_F004_BLOCKED",
+  "status": "MISSION_APPROVED_SCIV_F004_VERIFIED_WITH_ENV_LIMITATION_ACCEPTANCE_PENDING",
   "generator_project_code": "PRJ-000002",
   "generator_strategy_code": "EA-000002-000025",
   "generator_route": "A",
@@ -45,10 +45,10 @@
   "last_completed_milestone": "EA-000022-000001: arquivos mínimos no GitHub, perfil do Gerador e códigos verificados",
   "pending_items": [
     "Instalar instruções C3 nativas mediante ato humano e comprovar vínculo ChatGPT do Projeto; Gate A6 ainda pendente.",
-    "SCIV F002/F003 verificadas; F004 reteste apto após correções GDA/G0, mas gate não aceito antes de prova CODEX PRJ22; enabled=false.",
+    "SCIV F004 retest: 8 local, 88 Generator, 158 runtime PASS / 1 physical symlink SKIP, 12 PEP offline PASS. VERIFIED_WITH_ENV_LIMITATION; integral gate acceptance pending; enabled=false.",
     "Definir primeiras entregas substantivas com IA especializada posteriormente, preservada missão já aprovada."
   ],
-  "next_logical_step": "SCIV F004: CODEX_LOCAL_PRJ000022 retests using verified current Generator ACT010 and G0 ACT028 dependencies. Preflight must check sibling checkouts because G0 local was stale; use handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md. Physical Windows symlink may SKIP_ENV_NOT_SUPPORTED, never counted PASS. F005/native C3/A6 not started; SCIV enabled=false.",
+  "next_logical_step": "G0/governan?a local avaliar limita??o OS_SYMLINK_PHYSICAL_NOT_VERIFIED (WinError 1314) e aceite compat?vel do gate F004; se exig?ncia f?sica estrita, executar em ambiente autorizado compat?vel. F005 n?o iniciada; C3/A6 e PEP live n?o comprovados.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000022-000001",
   "last_concluded_strategy_name": "Inicialização técnica canônica do Instituições Bancárias pela Rota A",
@@ -77,13 +77,13 @@
   "sciv_rollout": {
     "strategy_code": "EA-000022-000003",
     "global_strategy": "EA-000000-000034",
-    "status": "F002_F003_VERIFIED_F004_RETEST_READY_UPSTREAM_VERIFIED",
+    "status": "F004_VERIFIED_WITH_ENV_LIMITATION_INTEGRAL_GATE_PENDING",
     "operational_enabled": false,
     "opt_in_authorized": true,
     "mode": "ON_DEMAND",
     "local_plan_ref": "estrategias/EA-000022-000003-sciv-sob-demanda.md",
     "action_plan_ref": "estrategias/EA-000022-000003-actions.json",
-    "next_executor": "CODEX_LOCAL_PRJ000022_F004_RETEST",
+    "next_executor": "G0_AND_PRJ000022_GOVERNANCE_ACCEPTANCE",
     "next_phase": "F-000022-000003-004",
     "mailbox_exists_verified": true,
     "native_installation_verified": false,
@@ -94,15 +94,18 @@
     "last_completed_scope": "DOCUMENTARY_REPOSITORY_ONLY",
     "next_handoff_ref": "handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md",
     "verification_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
-    "evidence_ref": "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
+    "evidence_ref": "auditorias/EA-000022-000003-codex-f004-retest-2026-10-11.md",
     "remediation_refs": [
       "thiagoba2004/gerador-de-agents/handoffs/codex/EA-000002-000027-F005-LEGACY-MATRIX-GATE.md",
       "thiagoba2004/governanca-geral-modelos-ia/handoffs/codex/EA-000000-000034-F003-RUNTIME-BRANCH-SYMLINK.md"
     ],
     "upstream_generator_act010": "VERIFIED_88_TESTS_CI_38190729893",
     "upstream_g0_act028": "VERIFIED_WITH_ENV_LIMITATION_SCIV_158_PASS_1_SKIP_PEP_12_PASS",
-    "upstream_g0_local_checkout_caveat": "NOT_SYNCED_NETWORK_UNAVAILABLE_PER_CODEX; VERIFY_CURRENT_SOURCE_BEFORE_RETEST",
-    "next_gate": "SCIV_REPO_VERIFICADO_NOT_ACCEPTED"
+    "upstream_g0_local_checkout_caveat": "STALE_DIRTY_SIBLING_PRESERVED; IMMUTABLE_85a91ce_SNAPSHOT_USED_AND_BLOBS_VERIFIED",
+    "next_gate": "SCIV_REPO_VERIFICADO_WITH_ENV_LIMITATION_ACCEPTANCE_PENDING",
+    "gate_classification": "VERIFIED_WITH_ENV_LIMITATION",
+    "integral_gate_accepted": false,
+    "os_symlink_physical_verified": false
   },
   "mission_handoff": {
     "strategy_code": "EA-000022-000002",

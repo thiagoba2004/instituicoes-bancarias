@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -7,8 +8,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-sys.path.insert(0, str(ROOT.parent / 'gerador-de-agents/tools'))
-sys.path.insert(0, str(ROOT.parent / 'governanca-geral-modelos-ia/runtime'))
+sys.path.insert(0, str(Path(os.environ.get('F004_GENERATOR_ROOT', ROOT.parent / 'gerador-de-agents')) / 'tools'))
+sys.path.insert(0, str(Path(os.environ.get('F004_G0_ROOT', ROOT.parent / 'governanca-geral-modelos-ia')) / 'runtime'))
 from provision import compose, BASE, BEGIN, END, baseline
 from sciv_bootstrap import integrate
 
@@ -31,7 +32,9 @@ class LocalContractTests(unittest.TestCase):
                    'sciv_bootstrap': dict(enabled=True, mode='ON_DEMAND',
                        binding_evidence='OFFLINE_FIXTURE_NOT_REAL_BINDING',
                        github_read_evidence='OFFLINE_FIXTURE', provisioning_evidence='OFFLINE_FIXTURE')}
-        original = (ROOT / 'adaptadores/chatgpt/INSTRUCOES.md').read_bytes().decode('utf-8')
+        # Git canonical template is LF; Windows autocrlf is a checkout transform.
+        # Exercise the text composer using canonical line endings, without writes.
+        original = (ROOT / 'adaptadores/chatgpt/INSTRUCOES.md').read_text(encoding='utf-8')
         self.assertEqual(integrate(original, profile, state), original)
 
     def test_unauthorized_composition_denied(self):

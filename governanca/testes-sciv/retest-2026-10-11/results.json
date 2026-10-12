@@ -1,0 +1,107 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "adapter_sha256_unchanged": "0f8eeabacd5ad4fd67d452e5da378c5555c0cc205e53fe3e306b425d2e85cb5e",
+  "results": [
+    {
+      "name": "local",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "success": true
+    },
+    {
+      "name": "generator",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "cwd": ".f004-sources\\generator",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "success": true
+    },
+    {
+      "name": "runtime",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "runtime",
+        "-p",
+        "test_sciv*.py",
+        "-v"
+      ],
+      "cwd": ".f004-sources\\g0-snapshot",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "success": true
+    },
+    {
+      "name": "pep-offline",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_r2_pep_offline.py",
+        "-v"
+      ],
+      "cwd": ".f004-sources\\g0-snapshot",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "success": true
+    },
+    {
+      "name": "gate-sciv",
+      "arguments": [
+        "C:\\Users\\sony\\MeusProjetos\\instituicoes-bancarias\\.f004-sources\\generator\\tools\\project_creation_gate.py",
+        "--project-root",
+        "C:\\Users\\sony\\MeusProjetos\\instituicoes-bancarias",
+        "--route",
+        "A",
+        "--gate",
+        "sciv"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "success": true
+    },
+    {
+      "name": "gate-bootstrap-expected-fail",
+      "arguments": [
+        "C:\\Users\\sony\\MeusProjetos\\instituicoes-bancarias\\.f004-sources\\generator\\tools\\project_creation_gate.py",
+        "--project-root",
+        "C:\\Users\\sony\\MeusProjetos\\instituicoes-bancarias",
+        "--route",
+        "A",
+        "--gate",
+        "bootstrap"
+      ],
+      "cwd": ".",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "success": true
+    },
+    {
+      "name": "controlled-sensitivity",
+      "arguments": [
+        "auditorias/EA-000000-000034/ACT028/controlled-coverage-check.py"
+      ],
+      "cwd": ".f004-sources\\g0-snapshot",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "success": true
+    }
+  ]
+}
