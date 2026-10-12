@@ -140,15 +140,15 @@
         "Mandato humano registrado; classificação S0 ou S1 revisado para Git publico",
         "Verificar ferramenta e limites PEP/GVC e zero nova despesa antes de efeitos"
       ],
-      "verification": "Readback por SHA/commit e prova do gate; sem declaração retroativa de instalação ou autorização",
+      "verification": "G0 independently read back six files of checkpoint 5e75a710e3808dd551101cb941610365f1217018; 8 local +88 generator +158 runtime PASS/1 real symlink SKIP +12 PEP offline PASS; SCIV gate PASS, legacy bootstrap NOT_BACKFILLED; repository-only gate accepted with limitation, no live activation and integral assurance false.",
       "fallback": "Não substituir executor ou ambiente sem catálogo e mandato",
       "on_block": "Registrar BLOCKED, causa, owner e próximo passo verificável; prosseguir tarefas independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "BLOCKED",
+      "status": "VERIFIED",
       "completion_gate": "SCIV_REPO_VERIFICADO",
-      "block_reason": "OS_SYMLINK_PHYSICAL_NOT_VERIFIED_WINERROR_1314; INTEGRAL_GATE_ACCEPTANCE_PENDING_G0",
-      "next_action": "G0/local governance evaluate documented environment limitation; if strict OS proof required, rerun physical symlink test in supported authorized environment. Do not start F005 in this executor.",
+      "block_reason": null,
+      "next_action": "G0 EA034 F004 may provision PRJ000023 separately. PRJ000022 no F005 native installation yet; OS symlink physical assurance and human native/C3/A6 gates remain before operational activation.",
       "evidence_refs": [
         "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
         "governanca/testes-sciv/gate-sciv.log",
@@ -158,7 +158,8 @@
         "auditorias/EA-000022-000003-codex-f004-retest-2026-10-11.md",
         "governanca/testes-sciv/retest-2026-10-11/results.json",
         "governanca/testes-sciv/retest-2026-10-11/provenance.json",
-        "governanca/testes-sciv/retest-2026-10-11/readback.json"
+        "governanca/testes-sciv/retest-2026-10-11/readback.json",
+        "thiagoba2004/governanca-geral-modelos-ia/auditorias/EA-000000-000034-F003-aceite-condicionado-prj000022-2026-10-11.md"
       ],
       "upstream_dependencies": [
         "GENERATOR_ACT010_ANCESTOR_VERIFIED_SNAPSHOT_bd754a1",
@@ -167,10 +168,17 @@
       ],
       "handoff_ref": "handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md",
       "verified_scope": "OFFLINE_DOCUMENTARY_AND_CONTROLLED_RUNTIME_ONLY_OS_SYMLINK_PHYSICAL_NOT_VERIFIED",
-      "gate_classification": "VERIFIED_WITH_ENV_LIMITATION_NOT_UNCONDITIONAL",
+      "gate_classification": "VERIFIED_WITH_ENV_LIMITATION_REPOSITORY_SCOPE",
       "integral_gate_accepted": false,
       "retest_status": "VERIFIED_WITH_ENV_LIMITATION",
-      "retest_verification_commit": "c909e0b16547a6567d0bb84f91ade14a5f1439d4"
+      "retest_verification_commit": "c909e0b16547a6567d0bb84f91ade14a5f1439d4",
+      "scoped_gate_accepted": true,
+      "scoped_gate_accepted_by": "G0_GLOBAL_GOVERNANCE_SCIV_REPOSITORY_QA",
+      "scoped_gate_authority": "REQ-GLOBAL-20261011-001",
+      "scoped_gate_evidence": "thiagoba2004/governanca-geral-modelos-ia/auditorias/EA-000000-000034-F003-aceite-condicionado-prj000022-2026-10-11.md",
+      "integral_security_assurance": false,
+      "os_symlink_physical_verified": false,
+      "remaining_blocker": "OS_SYMLINK_PHYSICAL_NOT_VERIFIED_WINERROR_1314_BLOCKS_OPERATIONAL_ACTIVATION_AND_FINAL_ASSURANCE"
     },
     {
       "action_key": "ACT-000022-000003-005",
