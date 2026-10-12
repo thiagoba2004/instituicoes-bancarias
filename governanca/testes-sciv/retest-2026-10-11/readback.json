@@ -1,0 +1,161 @@
+{
+  "implementation_commit": "c909e0b16547a6567d0bb84f91ade14a5f1439d4",
+  "method": "INDEPENDENT_GITHUB_BARE_CLONE_NO_LOCAL_OBJECT_REUSE",
+  "remote_main_verified": "c909e0b16547a6567d0bb84f91ade14a5f1439d4",
+  "files_verified": 25,
+  "classification": "S1_REVIEWED_FOR_P2",
+  "canonical_vs_working_hash_note": "artifact-hashes.json hashes local bytes; canonical Git LF byte hashes are recorded here separately.",
+  "blobs": [
+    {
+      "path": ".gitignore",
+      "blob": "56f570e5640f0c397035ac4ffe608debd5bf2b2e",
+      "sha256_canonical_git_bytes": "9f997ea5e661d5369560f9a765d417df2075ca852f2b241807f8df7fcce6a45b",
+      "equal": true
+    },
+    {
+      "path": "PROJECT_STATE.json",
+      "blob": "b9b47df2443bd31f1aea580259a37b18d7043554",
+      "sha256_canonical_git_bytes": "c0f529b8fbe8bbe883fba0943aead7b7c9faed990dc010fe1324a1d69c07a370",
+      "equal": true
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "blob": "6858be6f53378e8c10d08e82500ee6eb7b54073c",
+      "sha256_canonical_git_bytes": "e1c41b95e350e54b3b2fb4dd2cb1dbfae44698dd0092c5d9b331038c57576223",
+      "equal": true
+    },
+    {
+      "path": "ROADMAP.md",
+      "blob": "cbf63159588b86ba0d0d8707c5db6b943f303733",
+      "sha256_canonical_git_bytes": "a904fa9ef7ac123be22a1ca3be487b1585c5cafde80a661344815c756b4efeb8",
+      "equal": true
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "blob": "79162a773f222843db5ff8869de5ffcea23ffa8e",
+      "sha256_canonical_git_bytes": "c765d309c0c430c321845728205e5c220a4e0657da890eb9e10f1d6a383d50cb",
+      "equal": true
+    },
+    {
+      "path": "auditorias/EA-000022-000003-codex-f004-retest-2026-10-11.md",
+      "blob": "a4c1cc118cf43da1ab7b0cee536799e197f1ec90",
+      "sha256_canonical_git_bytes": "dd1753293906dbb7193b46725c1a5d4d020f8df15c8fb404ce2c8e0a1cd6750c",
+      "equal": true
+    },
+    {
+      "path": "estrategias/EA-000022-000003-actions.json",
+      "blob": "987f7f32c43deb8225110224ec981d6468bebbb4",
+      "sha256_canonical_git_bytes": "67a54471945417c196c097bcb7f0aa33e25ed3240e448ae8e89ac1686122d67a",
+      "equal": true
+    },
+    {
+      "path": "estrategias/EA-000022-000003-sciv-sob-demanda.md",
+      "blob": "49a2044ef742fd5a6ca579ee3c8897f82fa33acd",
+      "sha256_canonical_git_bytes": "ed7a58058f05e1563bbad96b90e9a9fd678e2339bcc53f879fa23ba684a6a23b",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/artifact-hashes.json",
+      "blob": "c69f99aed7c991bd9a7f087e44525cbec2bede44",
+      "sha256_canonical_git_bytes": "78a3ac99d5597eb4211b1f06726d41f9f3f6e1c14f1c0ccf13f76400b6937b0e",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/controlled-sensitivity.log",
+      "blob": "1ad06fcf2b437b5faf796e498a43007478ec6887",
+      "sha256_canonical_git_bytes": "50bcc9ba4b8fe127a4ef8e1ae420cc13fd304d95f32c9bcb09d4069a1400d1c6",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/gate-bootstrap-expected-fail.log",
+      "blob": "11cf12d0994a5ceaf2c1a256ddc0c7f0deccc88f",
+      "sha256_canonical_git_bytes": "352149056011b8ac00bacb3ba0d22231021dc981c0d47756e1105df5c6bd55b4",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/gate-sciv-status-validation-attempt.log",
+      "blob": "0ab948b5be1fd6977ced486d976e68e20bb07729",
+      "sha256_canonical_git_bytes": "9cd1cb8d571ac5a608d99395b9cc0fc17398ecec2488f3abf0f44b336a5df381",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/gate-sciv.log",
+      "blob": "6fe7f25b5e8c0d00b14666b7d407ecade6228576",
+      "sha256_canonical_git_bytes": "eef27c7b4197a0f3a41968950e9cb79715f39f10191f90878a57f2a894833282",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/generator.log",
+      "blob": "fd78aaa7971eb984ef5f8b4cce9497c8919e07f2",
+      "sha256_canonical_git_bytes": "51d977f68536fc38ccec748be37c3a868b059b5aefdb6a6a487e0de99cc878a3",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/loaded-modules.json",
+      "blob": "60997040875f07e0db5a2669ea2691f2867cebbb",
+      "sha256_canonical_git_bytes": "3073d7b1e3e596b45b601461ba8ade6fd7a8843c99b50d5c2a0c9d25f80bc3cc",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/local-attempt1.log",
+      "blob": "bde920cf5b9172ec3f378781aae90dc79ac3f9a6",
+      "sha256_canonical_git_bytes": "98d9d377477dfe621f505edc395fc3ee7c0093261d5b16a67f6f1ba297f328e3",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/local.log",
+      "blob": "1f871ab907ed043bbce4e19e53c45b6787aee6cb",
+      "sha256_canonical_git_bytes": "b79ef41e5555e655b846894e6da17f90599f2e00420c1ea9e6fe2c4a21789b84",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/pep-offline.log",
+      "blob": "0d29aed9cd9edc397cb13041732caff7260c0498",
+      "sha256_canonical_git_bytes": "643b59a6e838ad20c09bb3c24fcac36b9ea9acc9bf5586ee0d77b9c6febf2002",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/provenance.json",
+      "blob": "1785b4372e778738f1b32be5ee85d1c4a637b9f0",
+      "sha256_canonical_git_bytes": "b5962b5497a9ec5d833ee68d33ac40fa38226180aaf6b756ef6d28b1f434fc70",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/results-attempt1.json",
+      "blob": "06820f1fcaa85b293fd38fcd8942b724a4d40149",
+      "sha256_canonical_git_bytes": "f8623040d5cf992b2fc52d98417462ab95bc012c12c8a54f5ba0e713c9b26001",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/results.json",
+      "blob": "5d0469f06ba18ab4e744d5c78a7d8223eff2a566",
+      "sha256_canonical_git_bytes": "2f5dcacc0f47df56b1f1add21c8b59b4cfbefbda03f0999509f78d48bdbcb125",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/runtime.log",
+      "blob": "cc084387536902b2b636c938fa3f4404196b7915",
+      "sha256_canonical_git_bytes": "619c7878ba072744d1a6d34fbc24e73ce2b347649339e7489421911f2fad2dd0",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest-2026-10-11/source-hashes.json",
+      "blob": "e93c18dfd582efcd56d3b86a1fe1b32221df3128",
+      "sha256_canonical_git_bytes": "8d75c33fa2d707f7bb918d3ad2c9968cb4d863c0503855b7dd04fc5ad0df9cda",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/retest_f004.py",
+      "blob": "1f5a1f94efe5c11daef644ba25e8d67ad4b716b7",
+      "sha256_canonical_git_bytes": "6b771766915d3235a7a5a570a9251685823edeee8f7d05d2c77f30a037bc797b",
+      "equal": true
+    },
+    {
+      "path": "governanca/testes-sciv/test_local.py",
+      "blob": "7462a5c7bfcaa7f5b66a5d67d85d260b8a849397",
+      "sha256_canonical_git_bytes": "0661e05e6826b31ee0854d6a37cc13dcb632369ba2ed21bd3e648f533a7acdde",
+      "equal": true
+    }
+  ],
+  "sources_unchanged_after_tests": true
+}
