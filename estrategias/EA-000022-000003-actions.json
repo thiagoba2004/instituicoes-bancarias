@@ -147,13 +147,22 @@
       "spend_limit": 0,
       "status": "BLOCKED",
       "completion_gate": "SCIV_REPO_VERIFICADO",
-      "block_reason": "FIRST_EA_ACTION_PLAN_UNVERIFIED; external runtime stale main fixture; Windows symlink WinError 1314",
-      "next_action": "Governance reconciles historical matrix; upstream owner fixes branch fixture; compatible environment reruns symlink; Codex reruns failed gates under proper mandate.",
+      "block_reason": "PRIOR_F004_TESTS_FAILED; UPSTREAM_GENERATOR_ACT010_AND_G0_ACT028_NOW_VERIFIED; FRESH_PRJ000022_RETEST_NOT_YET_EXECUTED; REAL_SYMLINK_OS_TEST_NOT_VERIFIED_WINDOWS_1314",
+      "next_action": "CODEX_LOCAL_PRJ000022: read handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md; verify authoritative sibling checkout versions, rerun F004, classify physical symlink SKIP separately; commit new evidence/readback before any gate promotion",
       "evidence_refs": [
         "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
         "governanca/testes-sciv/gate-sciv.log",
-        "governanca/testes-sciv/runtime.log"
-      ]
+        "governanca/testes-sciv/runtime.log",
+        "thiagoba2004/governanca-geral-modelos-ia/auditorias/EA-000000-000034/ACT028/report.md",
+        "thiagoba2004/gerador-de-agents/audits/EA-000002-000027-F005-codex-legacy-matrix-2026-10-11.md"
+      ],
+      "upstream_dependencies": [
+        "EA-000002-000027:ACT-000002-000027-010_VERIFIED_CI_38190729893",
+        "EA-000000-000034:ACT-000000-000034-028_VERIFIED_WITH_ENV_LIMITATION_COMMIT_0f686028",
+        "LOCAL_PRJ000022_F004_NEW_RETEST_NOT_PERFORMED"
+      ],
+      "handoff_ref": "handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md",
+      "verified_scope": "NONE_F004_RETEST_PENDING"
     },
     {
       "action_key": "ACT-000022-000003-005",
