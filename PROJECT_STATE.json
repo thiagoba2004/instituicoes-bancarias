@@ -39,15 +39,16 @@
     "estrategias/EA-000022-000002-actions.json",
     "estrategias/EA-000022-000003-sciv-sob-demanda.md",
     "estrategias/EA-000022-000003-actions.json",
-    "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md"
+    "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md",
+    "handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md"
   ],
   "last_completed_milestone": "EA-000022-000001: arquivos mínimos no GitHub, perfil do Gerador e códigos verificados",
   "pending_items": [
     "Instalar instruções C3 nativas mediante ato humano e comprovar vínculo ChatGPT do Projeto; Gate A6 ainda pendente.",
-    "SCIV: F002/F003 publicadas com readback; F004 BLOCKED. enabled=false; instalação nativa e comportamento real pendentes.",
+    "SCIV F002/F003 verificadas; F004 reteste apto após correções GDA/G0, mas gate não aceito antes de prova CODEX PRJ22; enabled=false.",
     "Definir primeiras entregas substantivas com IA especializada posteriormente, preservada missão já aprovada."
   ],
-  "next_logical_step": "SCIV F004 remains BLOCKED; CODEX Gerador ACT010 fixes retroactive first EA matrix gate and CODEX G0 ACT028 fixes branch/symlink test; then CODEX PRJ22 repeats F004. Mission/C3 native adapter is documentally reconciled, A6 still awaits future HUMAN installation. Do not enable SCIV.",
+  "next_logical_step": "SCIV F004: CODEX_LOCAL_PRJ000022 retests using verified current Generator ACT010 and G0 ACT028 dependencies. Preflight must check sibling checkouts because G0 local was stale; use handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md. Physical Windows symlink may SKIP_ENV_NOT_SUPPORTED, never counted PASS. F005/native C3/A6 not started; SCIV enabled=false.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000022-000001",
   "last_concluded_strategy_name": "Inicialização técnica canônica do Instituições Bancárias pela Rota A",
@@ -76,13 +77,13 @@
   "sciv_rollout": {
     "strategy_code": "EA-000022-000003",
     "global_strategy": "EA-000000-000034",
-    "status": "F002_F003_VERIFIED_F004_BLOCKED_UPSTREAM_FIXES_PLANNED",
+    "status": "F002_F003_VERIFIED_F004_RETEST_READY_UPSTREAM_VERIFIED",
     "operational_enabled": false,
     "opt_in_authorized": true,
     "mode": "ON_DEMAND",
     "local_plan_ref": "estrategias/EA-000022-000003-sciv-sob-demanda.md",
     "action_plan_ref": "estrategias/EA-000022-000003-actions.json",
-    "next_executor": "CODEX_LOCAL_PRJ000022_AFTER_CODEX_GERADOR_ACT010_AND_CODEX_G0_ACT028",
+    "next_executor": "CODEX_LOCAL_PRJ000022_F004_RETEST",
     "next_phase": "F-000022-000003-004",
     "mailbox_exists_verified": true,
     "native_installation_verified": false,
@@ -91,13 +92,17 @@
     "last_completed_phase": "F-000022-000003-003",
     "last_completed_gate": "INSTRUCOES_VERSIONADAS",
     "last_completed_scope": "DOCUMENTARY_REPOSITORY_ONLY",
-    "next_handoff_ref": "handoffs/codex/EA-000022-000003-SCIV-F002-F004.md",
+    "next_handoff_ref": "handoffs/codex/EA-000022-000003-F004-RETEST-2026-10-11.md",
     "verification_commit": "6700203cffa3ad1471aa68e78e40dea060a45790",
     "evidence_ref": "auditorias/EA-000022-000003-codex-f002-f004-2026-10-11.md",
     "remediation_refs": [
       "thiagoba2004/gerador-de-agents/handoffs/codex/EA-000002-000027-F005-LEGACY-MATRIX-GATE.md",
       "thiagoba2004/governanca-geral-modelos-ia/handoffs/codex/EA-000000-000034-F003-RUNTIME-BRANCH-SYMLINK.md"
-    ]
+    ],
+    "upstream_generator_act010": "VERIFIED_88_TESTS_CI_38190729893",
+    "upstream_g0_act028": "VERIFIED_WITH_ENV_LIMITATION_SCIV_158_PASS_1_SKIP_PEP_12_PASS",
+    "upstream_g0_local_checkout_caveat": "NOT_SYNCED_NETWORK_UNAVAILABLE_PER_CODEX; VERIFY_CURRENT_SOURCE_BEFORE_RETEST",
+    "next_gate": "SCIV_REPO_VERIFICADO_NOT_ACCEPTED"
   },
   "mission_handoff": {
     "strategy_code": "EA-000022-000002",
